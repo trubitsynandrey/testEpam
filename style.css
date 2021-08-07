@@ -1,0 +1,138 @@
+h1 {
+  font-size: 3em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.users {
+  margin: auto;
+  margin-top: 2em;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.just_user {
+  margin: 1.5em;
+  width: 10em;
+  height: auto;
+  text-align: center;
+  border: 2px rgb(233, 47, 134) solid;
+  cursor: pointer;
+}
+
+.just_user img {
+  margin-top: 0.5em;
+  flex-shrink: 0;
+  width: 80%;
+  border-radius: 0.5em;
+}
+
+.just_user p {
+  margin: 0;
+  padding: 0;
+}
+
+.sort_control {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.sort_control_buttons {
+    display: block;
+    width: 10em;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px gray;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 1em;
+}
+
+.gender {
+  display: block;
+}
+
+#description {
+  font-size: 2em;
+}
+
+#modalUser {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: #d4eefb;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  /* top: calc(50% - 100px);
+    left: calc(50% - 175px); */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  position: fixed;
+  font-family: sans-serif;
+  padding: 30px 10px;
+  border: 1px solid black;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#modalBackDrop {
+  /* opacity: 0; */
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#userProfile {
+  text-align: center;
+}
+
+#profileImg {
+  width: 70%;
+  border-radius: 1em;
+}
+
+#fullName {
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}

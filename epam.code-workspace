@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../testElma/fromU4ube"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "testEpam"
+	}
+}

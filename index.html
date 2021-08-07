@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Epam Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to the Users!</h1>
+    <p id="description">
+      Here you can find the nicest users in the world from all over the globe
+    </p>
+    <div class="sort_control">
+      <button class="sort_control_buttons" id="sortButton">Sort these guys!</button>
+      <button class="sort_control_buttons" id="sortBackButton">Bring the original order!</button>
+    </div>
+    <div class="users"></div>
+    <div id="modalUser">
+      <div class="modal-header">
+        <div class="modal-title">User Card</div>
+        <button class="close-button">&times;</button>
+      </div>
+      <div id="userProfile">
+        <h2 id="fullName"></h2>
+        <img id="profileImg" src="" alt="" />
+        <p id="email"></p>
+        <p id="userLocation">
+        </p>
+        <p id="street"></p>
+      </div>
+    </div>
+    <div id="modalBackDrop"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
