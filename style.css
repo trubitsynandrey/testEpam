@@ -45,17 +45,17 @@ body {
 }
 
 .sort_control_buttons {
-    display: block;
-    width: 10em;
-    cursor: pointer;
-    box-shadow: 0px 0px 2px gray;
-    border: none;
-    outline: none;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-    background-color: blueviolet;
-    font-size: 1em;
+  display: block;
+  width: 10em;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: blueviolet;
+  font-size: 1em;
 }
 
 .gender {
@@ -69,10 +69,9 @@ body {
 #modalUser {
   display: none;
   z-index: 20;
-  padding: 25px;
   background-color: #d4eefb;
   box-shadow: 0px 0px 3px black;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 350px;
   /* top: calc(50% - 100px);
     left: calc(50% - 175px); */
@@ -82,12 +81,12 @@ body {
   /* position: absolute; */
   position: fixed;
   font-family: sans-serif;
-  padding: 30px 10px;
+  padding: 0px 0px;
   border: 1px solid black;
 }
 
 .modal-title {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
@@ -96,16 +95,21 @@ body {
   border: none;
   outline: none;
   background: none;
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: bold;
+  color: white;
 }
 
 .modal-header {
+    width: auto;
   padding: 10px 15px;
+  background-color: rgb(170, 62, 112);
   display: flex;
   justify-content: space-between;
+  color: white;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-radius: 10px 10px 0 0;
+
 }
 
 #modalBackDrop {
